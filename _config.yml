@@ -24,9 +24,10 @@ description: A virtual proof that name is awesome!
 # List of links in the navigation bar
 navbar-links:
   # About Me: "aboutme"
-  Download: "aboutme"
+  Home: "index"
+  Download: "https://github.com/mretegan/crispy/releases"
   Getting Started:
-    - Runnig your first simulation: "aboutme"
+    - Runnig your first simulation: "index"
   Author's home: "http://marius.retegan.org"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -150,7 +151,6 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
-  - docker-compose.yml
 
 # prose.io config
 prose:
