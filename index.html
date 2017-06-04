@@ -7,48 +7,18 @@ bigimg: /img/path.jpg
 ---
 
 
-# Here is a first heading
+<div class="text-center">
+  <h1>Heading h1</h1>
+  <h2Heading h2</h2>
+  <br/>
 
+  <img src="{{ site.baseurl }}/img/404-southpark.jpg" />
 
-## Here is a secondary heading
+  {% highlight javascript linenos %}
+  var foo = function(x) {
+    return(x + 5);
+  }
+  foo(3)
+  {% endhighlight %}
 
-Here's a useless table:
- 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
- 
-
-How about a yummy crepe?
-
-![Crepe](http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+</div>
