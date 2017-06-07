@@ -37,7 +37,7 @@ In this tutorial, it includes:
 **4.** The **Hamiltonian Setup** is the soul of the simulation. So far, four Halmitonians set-ups are available in Crispy:
 
 - **Coulomb:** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/coulomb_repulsion)*
-- **Spin-Orbit Coupling:** more detailed description → *[Click Here (http://www.quanty.org/documentation/standard_operators/spin_orbit_coupling)*
+- **Spin-Orbit Coupling:** more detailed description → *[Click Here] (http://www.quanty.org/documentation/standard_operators/spin_orbit_coupling)*
 - **Crystal Field:** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/crystal_field)*
 - **3d-Ligands Hybridization:** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/ligand_field)*
 
