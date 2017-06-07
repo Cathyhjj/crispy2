@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Runnig your first simulation.
+title: Running your first simulation.
 ---
 
 ## 1. generate XANES spectra
