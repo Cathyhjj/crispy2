@@ -3,10 +3,10 @@ layout: post
 title: Runnig your first simulation.
 ---
 
-## 1. generate XANES spectras
+## 1. generate XANES spectra
 ---
 
-An example of Mn metal K pre-edge simulation is shown in the first tutorial and it includes:
+An example of Mn metal K pre-edge simulation is shown in the this tutorial and the content includes:
 
 > - **Parameters set-up**
 > - **Running simulations and reading Quanty output files**
@@ -17,18 +17,18 @@ An example of Mn metal K pre-edge simulation is shown in the first tutorial and 
 
 #### 1.1 Parameters set-up
 
-**1.** Run Crispy software and you can see the interface as follows. On the right panel, there are four folded panels. In **General Setup**, you can choose the metal element that you want to calculate. In our first tutorial, we are going to calculate K pre-edge XANES for Mn(II) compound. So in **Elment and Symmetry** we click on **Mn**.  
+**1.** Run Crispy software and you can see the interface as follows. There are four folded panels on the right side. In **General Setup**, you can choose the metal element that you want to calculate. In our first tutorial, we are going to calculate K pre-edge XANES for Mn(II) compound. So in **Elment and Symmetry** we click on **Mn**.  
 
 ![]({{ site.url }}/img/tutorial/crop_1.png)
 
 
-**2.** Then we can choose the oxidation state and symmetry. So far only octahedral (**Oh**) and elongated octahedral (**D4h**) are available. In the future work, we are going to implement more symmetry choices. In the **Experiment and Edge** set-up, we keep XAS and K-edge choice.
+**2.** Then we can choose the oxidation state and symmetry. So far only octahedral (**Oh**) and elongated octahedral (**D4h**) are available in Crispy. In the future work, we are going to implement more symmetry choices. In the **Experiment and Edge** set-up, we keep XAS and K-edge choice.
 
 
 ![]({{ site.url }}/img/tutorial/crop_3.png)
 
 
-**3.** Above are the basic parameters. Now we switch to the second parameter panel **States and Spectrum Parameters**, we keep the default values. It's worth noting that Quanty doesn't give correct absolute **absorption energy**. What we are interested are the spectral features and the relative absorption energies, so that one should calibrate/shift the absorption energy in respect to experiment measurements. If more fined spectra data is needed, increase the **Number of Points**. The **Gamma FWHM** is the life-time broadening.
+**3.** Above are the basic parameters. Now we switch to the second parameter panel **States and Spectrum Parameters**, we keep the default values. It's worth noting that Quanty doesn't give correct absolute **absorption energy**. What we are interested are the spectral features and the relative absorption energies, so that one should calibrate/shift the absorption energy in respect to experiment measurements. If more precised spectra data is needed, increase the **Number of Points**. The **Gamma FWHM** is the life-time broadening.
 
 
 ![]({{ site.url }}/img/tutorial/crop_5.png)
@@ -65,7 +65,7 @@ Crystal field default value is 1.0 now.
 ![]({{ site.url }}/img/tutorial/crop_9.png)
 
 
-**2.** Drag up the bottom of the plotting, and the output file is printed for Quanty. By looking at the output file, one can find the initial state Halmitonian and final state Halmitonian information.
+**2.** Drag up the bottom of the plotting, and the output file is printed for Quanty. By looking at the output file, one can find the initial state / final state Halmitonian information.
 
 
 ![]({{ site.url }}/img/tutorial/crop_10.png)
@@ -73,7 +73,7 @@ Crystal field default value is 1.0 now.
 
 #### 1.3 Save the spectra data and graph
 
-**1.** By clicking the **Save** button, the generated spectra can be saved into images or .txt files so that the data can be further plotted by other softwares.
+**1.** By clicking the **Save** button, the generated spectra can be saved into images or .txt files so that the data can be further processed by other softwares.
 
 
 ![]({{ site.url }}/img/tutorial/crop_12.png)
@@ -87,9 +87,9 @@ Crystal field default value is 1.0 now.
 ![]({{ site.url }}/img/tutorial/crop_13.png)
 
 
-**2.** One of the greatest advantage of Crispy is the ability of running multiple calculations. And this greatly facilitate playing around with different parameters. When we want to run another calculation, we can simply go back to parameter panels. For example, I selected another metal Mn(III). After changing the parameters, we find one more Calculation 
+**2.** After changing the parameters, we find one more Calculation 
 **Mn 3+ Oh XAS K(1s)** 
-in the results panel. If we want to check the detailed values for one specific calculation, we can click on it and the values in corresponding parameter panels will automatically changed to the values we set for that specific calculation.
+in the results panel. If we want to check the detailed parameters for one of the calculation result, we can click on it and the values in corresponding parameter panels will automatically changed to the values we set for that specific calculation.
 
 
 ![]({{ site.url }}/img/tutorial/crop_14.png)
@@ -112,7 +112,7 @@ in the results panel. If we want to check the detailed values for one specific c
 ![]({{ site.url }}/img/tutorial/crop_17.png)
    
    
-**2.** Quanty is written in LUA language. And Crispy is able to generate Quanty input file. This is useful to modify some scripts for more specific calculations adding the Halmitonian terms which aren't implemented in the interface.
+**2.** Quanty is written in LUA language. And Crispy is able to generate Quanty input file. This is useful to modify some scripts for more specific/personalized calculations adding the Halmitonian terms which aren't implemented in the interface.
 
 
 ![]({{ site.url }}/img/tutorial/crop_11.png)
