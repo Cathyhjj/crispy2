@@ -15,26 +15,27 @@ In this tutorial, it includes:
 * **Save calculation and Quanty input files**
 
 
+
 #### | 1.1 Parameters set-up |
 
-1.Run Crispy software and you can see the interface as follows. On the right panel, there are four folded panels. In **General Setup**, you can choose the metal element that you want to calculate. In our first tutorial, we are going to calculate K pre-edge XANES for Mn(II) compound. So in **Elment and Symmetry** we click on **Mn**.  
+**1.** Run Crispy software and you can see the interface as follows. On the right panel, there are four folded panels. In **General Setup**, you can choose the metal element that you want to calculate. In our first tutorial, we are going to calculate K pre-edge XANES for Mn(II) compound. So in **Elment and Symmetry** we click on **Mn**.  
 
 ![]({{ site.url }}/img/tutorial/crop_1.png)
 
 
-2.Then we can choose the oxidation state and symmetry. So far only octahedral (**Oh**) and elongated octahedral (**D4h**) are available. In the future work, we are going to implement more symmetry choices. In the **'Experiment and Edge'** set-up, we keep XAS and K-edge choice.
+**2.** Then we can choose the oxidation state and symmetry. So far only octahedral (**Oh**) and elongated octahedral (**D4h**) are available. In the future work, we are going to implement more symmetry choices. In the **'Experiment and Edge'** set-up, we keep XAS and K-edge choice.
 
 
 ![]({{ site.url }}/img/tutorial/crop_3.png)
 
 
-3.Above are the basic parameters. Now we switch to the second parameter panel **'States and Spectrum Parameters'**, we keep the default values. It's worth noting that Quanty doesn't give correct absolute **absorption energy**. What we are interested are the spectral features and the relative absorption energies, so that one should calibrate/shift the absorption energy in respect to experiment measurements. If more fined spectra data is needed, increase the **Number of Points**. The **Gamma FWHM** is the life-time broadening.
+**3.** Above are the basic parameters. Now we switch to the second parameter panel **'States and Spectrum Parameters'**, we keep the default values. It's worth noting that Quanty doesn't give correct absolute **absorption energy**. What we are interested are the spectral features and the relative absorption energies, so that one should calibrate/shift the absorption energy in respect to experiment measurements. If more fined spectra data is needed, increase the **Number of Points**. The **Gamma FWHM** is the life-time broadening.
 
 
 ![]({{ site.url }}/img/tutorial/crop_5.png)
 
 
-4.The **Hamiltonian Setup** is the soul of the simulation. So far, four Halmitonians set-ups are available in Crispy:
+**4.** The **Hamiltonian Setup** is the soul of the simulation. So far, four Halmitonians set-ups are available in Crispy:
    - **Coulomb term: ** described by Slater-Condon Parameters, more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/coulomb_repulsion)*
    - **Spin-Orbit Coupling: ** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/spin_orbit_coupling)*
    - **Crystal Field: ** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/crystal_field)*
@@ -53,24 +54,32 @@ Crystal field default value is 1.0 now.
 
 #### | 1.2 Running simulations and reading Quanty output files |
 
-1. After setting all the parameters, we can simply click the **Run** button to carry out the calculation. When the calculation is done, the generated spectrum is automatically plotted in the left panel. By clicking the buttons on the plotting panel, one can change the plotting style/scale/colors.
+1.After setting all the parameters, we can simply click the **Run** button to carry out the calculation. When the calculation is done, the generated spectrum is automatically plotted in the left panel. By clicking the buttons on the plotting panel, one can change the plotting style/scale/colors.
+
 
 ![]({{ site.url }}/img/tutorial/crop_8.png)
+
+
 ![]({{ site.url }}/img/tutorial/crop_9.png)
 
-2. Drag up the bottom of the plotting, and the output file is printed for Quanty. By looking at the output file, one can find the initial state Halmitonian and final state Halmitonian information.
+
+2.Drag up the bottom of the plotting, and the output file is printed for Quanty. By looking at the output file, one can find the initial state Halmitonian and final state Halmitonian information.
+
 
 ![]({{ site.url }}/img/tutorial/crop_10.png)
+
 
 #### | 1.3 Save the spectra data and graph |
 
 1. By clicking the **'Save'** button, the generated spectra can be saved into images or .txt files so that the data can be further plotted by other softwares.
 
+
 ![]({{ site.url }}/img/tutorial/crop_12.png)
+
 
 #### | 1.4 Run multi-calculations and merge data |
 
-1. One of the greatest advantage of Crispy is the ability of running multiple calculations. And this greatly facilitate playing around with different parameters. When we want to run another calculation, we can simply go back to parameter panels. For example, I selected another metal Ni(III).
+1.One of the greatest advantage of Crispy is the ability of running multiple calculations. And this greatly facilitate playing around with different parameters. When we want to run another calculation, we can simply go back to parameter panels. For example, I selected another metal Ni(III).
 
 ![]({{ site.url }}/img/tutorial/crop_13.png)
    
