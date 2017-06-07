@@ -36,10 +36,11 @@ In this tutorial, it includes:
 
 
 **4.** The **Hamiltonian Setup** is the soul of the simulation. So far, four Halmitonians set-ups are available in Crispy:
-   - **Coulomb term: ** described by Slater-Condon Parameters, more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/coulomb_repulsion)*
-   - **Spin-Orbit Coupling: ** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/spin_orbit_coupling)*
-   - **Crystal Field: ** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/crystal_field)*
-   - **3d-Ligands Hybridization** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/ligand_field)*
+- **Coulomb term: ** described by Slater-Condon Parameters, more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/coulomb_repulsion)*
+- **Spin-Orbit Coupling: ** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/spin_orbit_coupling)*
+- **Crystal Field: ** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/crystal_field)*
+- **3d-Ligands Hybridization** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/ligand_field)*
+
 By double click the Parameter Value, one can change the parameters into the values of interest. In our first tutorial, we keep the default values.
 
 
