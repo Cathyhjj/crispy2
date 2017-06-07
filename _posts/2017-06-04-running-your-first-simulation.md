@@ -22,13 +22,13 @@ In this tutorial, it includes:
 ![]({{ site.url }}/img/tutorial/crop_1.png)
 
 
-**2.** Then we can choose the oxidation state and symmetry. So far only octahedral (**Oh**) and elongated octahedral (**D4h**) are available. In the future work, we are going to implement more symmetry choices. In the **'Experiment and Edge'** set-up, we keep XAS and K-edge choice.
+**2.** Then we can choose the oxidation state and symmetry. So far only octahedral (**Oh**) and elongated octahedral (**D4h**) are available. In the future work, we are going to implement more symmetry choices. In the **Experiment and Edge** set-up, we keep XAS and K-edge choice.
 
 
 ![]({{ site.url }}/img/tutorial/crop_3.png)
 
 
-**3.** Above are the basic parameters. Now we switch to the second parameter panel **'States and Spectrum Parameters'**, we keep the default values. It's worth noting that Quanty doesn't give correct absolute **absorption energy**. What we are interested are the spectral features and the relative absorption energies, so that one should calibrate/shift the absorption energy in respect to experiment measurements. If more fined spectra data is needed, increase the **Number of Points**. The **Gamma FWHM** is the life-time broadening.
+**3.** Above are the basic parameters. Now we switch to the second parameter panel **States and Spectrum Parameters**, we keep the default values. It's worth noting that Quanty doesn't give correct absolute **absorption energy**. What we are interested are the spectral features and the relative absorption energies, so that one should calibrate/shift the absorption energy in respect to experiment measurements. If more fined spectra data is needed, increase the **Number of Points**. The **Gamma FWHM** is the life-time broadening.
 
 
 ![]({{ site.url }}/img/tutorial/crop_5.png)
@@ -85,7 +85,7 @@ Crystal field default value is 1.0 now.
 
 ![]({{ site.url }}/img/tutorial/crop_13.png)
    
-**2.** One of the greatest advantage of Crispy is the ability of running multiple calculations. And this greatly facilitate playing around with different parameters. When we want to run another calculation, we can simply go back to parameter panels. For example, I selected another metal Mg(III). After changing the parameters, we find one more Calculation **Mg | 3+ | Oh | XAS | K(1s)** in the results panel. If we want to check the detailed values for one specific calculation, we can click on it and the values in corresponding parameter panels will automatically changed to the values we set for that specific calculation.
+**2.** One of the greatest advantage of Crispy is the ability of running multiple calculations. And this greatly facilitate playing around with different parameters. When we want to run another calculation, we can simply go back to parameter panels. For example, I selected another metal Mg(III). After changing the parameters, we find one more Calculation ** Mg | 3+ | Oh | XAS | K(1s) ** in the results panel. If we want to check the detailed values for one specific calculation, we can click on it and the values in corresponding parameter panels will automatically changed to the values we set for that specific calculation.
 
 ![]({{ site.url }}/img/tutorial/crop_14.png)
 
