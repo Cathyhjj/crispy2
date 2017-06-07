@@ -6,9 +6,7 @@ title: Runnig your first simulation.
 ## 1. generate XANES spectras
 ---
 
-An example of Mn(II) metal K pre-edge simulation is shown in the first tutorial.
-In this tutorial, it includes:
-
+An example of Mn metal K pre-edge simulation is shown in the first tutorial and it includes:
 
 > - **Parameters set-up**
 > - **Running simulations and reading Quanty output files**
