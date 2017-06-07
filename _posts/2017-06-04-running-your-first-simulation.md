@@ -15,7 +15,6 @@ In this tutorial, it includes:
 * **Save calculation and Quanty input files**
 
 
-
 #### 1.1 Parameters set-up
 
 **1.** Run Crispy software and you can see the interface as follows. On the right panel, there are four folded panels. In **General Setup**, you can choose the metal element that you want to calculate. In our first tutorial, we are going to calculate K pre-edge XANES for Mn(II) compound. So in **Elment and Symmetry** we click on **Mn**.  
