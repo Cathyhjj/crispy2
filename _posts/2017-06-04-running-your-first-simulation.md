@@ -83,9 +83,12 @@ Crystal field default value is 1.0 now.
 
 **1.** One of the greatest advantage of Crispy is the ability of running multiple calculations. And this greatly facilitate playing around with different parameters. When we want to run another calculation, we can simply go back to parameter panels. For example, I selected another oxidation state Mn(III).
 
+
 ![]({{ site.url }}/img/tutorial/crop_13.png)
-   
-**2.** One of the greatest advantage of Crispy is the ability of running multiple calculations. And this greatly facilitate playing around with different parameters. When we want to run another calculation, we can simply go back to parameter panels. For example, I selected another metal Mg(III). After changing the parameters, we find one more Calculation ** Mn  3+  Oh  XAS  K(1s) ** in the results panel. If we want to check the detailed values for one specific calculation, we can click on it and the values in corresponding parameter panels will automatically changed to the values we set for that specific calculation.
+
+
+**2.** One of the greatest advantage of Crispy is the ability of running multiple calculations. And this greatly facilitate playing around with different parameters. When we want to run another calculation, we can simply go back to parameter panels. For example, I selected another metal Mn(III). After changing the parameters, we find one more Calculation **Mn 3+ Oh XAS K(1s)** in the results panel. If we want to check the detailed values for one specific calculation, we can click on it and the values in corresponding parameter panels will automatically changed to the values we set for that specific calculation.
+
 
 ![]({{ site.url }}/img/tutorial/crop_14.png)
 
