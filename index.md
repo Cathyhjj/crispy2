@@ -6,9 +6,7 @@ use-site-title: false
 bigimg: /img/path.jpg
 ---
 
->Crispy is a graphical user interface written in `Python <https://www.python.org/>`_ that facilitates the simulation of core-level >spectra. The interface provides a set of tools to generate input files, submit calculations, and analyze the results obtained with >programs such as `Quanty <http://quanty.org>`_. It has a modular design and can be run on macOS, Linux, and Windows platforms.
-
-.. image:: doc/crispy.png
+>Crispy is a graphical user interface written in [Python](https://www.python.org/) that facilitates the simulation of core-level >spectra. The interface provides a set of tools to generate input files, submit calculations, and analyze the results obtained with >programs such as [Quanty] (http://quanty.org). It has a modular design and can be run on macOS, Linux, and Windows platforms.
 
 Installation
 ============
@@ -23,16 +21,16 @@ First you have to make sure you have a working Python distribution. While crispy
 
 Crispy depends on the following Python packages:
 
-* `PyQt5 <https://riverbankcomputing.com/software/pyqt/intro>`_
-* `numpy <http://numpy.org>`_
-* `matplotlib <http://matplotlib.org>`_
-* `silx <http://www.silx.org>`_
+* **[PyQt5](https://riverbankcomputing.com/software/pyqt/intro)
+* [numpy](http://numpy.org)
+* [matplotlib](http://matplotlib.org)
+* [silx](http://www.silx.org)**
 
-The dependencies can be installed using ``pip`` (only for Python 3.5 or greater):: 
+The dependencies can be installed using `pip` (only for Python 3.5 or greater):: 
 
     pip install -r requirements.txt [--user]
 
-The ``--user`` options is usually only required for Linux or macOS operating systems.
+The `--user` options is usually only required for Linux or macOS operating systems.
 
 It is possible, although unlikely, that the development version of crispy requires features that are not yet available with the pip installable version of silx. In this case you have to also install silx from source. This is not always a very simple task, especially on Windows, but there is extensive `documentation <http://www.silx.org/doc/silx>`_ on how to do it. 
 
