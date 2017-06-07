@@ -24,23 +24,32 @@ In this tutorial, it includes:
 
 2.Then we can choose the oxidation state and symmetry. So far only octahedral (**Oh**) and elongated octahedral (**D4h**) are available. In the future work, we are going to implement more symmetry choices. In the **'Experiment and Edge'** set-up, we keep XAS and K-edge choice.
 
+
 ![]({{ site.url }}/img/tutorial/crop_3.png)
 
 
 3.Above are the basic parameters. Now we switch to the second parameter panel **'States and Spectrum Parameters'**, we keep the default values. It's worth noting that Quanty doesn't give correct absolute **absorption energy**. What we are interested are the spectral features and the relative absorption energies, so that one should calibrate/shift the absorption energy in respect to experiment measurements. If more fined spectra data is needed, increase the **Number of Points**. The **Gamma FWHM** is the life-time broadening.
 
+
 ![]({{ site.url }}/img/tutorial/crop_5.png)
 
 
-4. The **Hamiltonian Setup** is the soul of the simulation. So far, four Halmitonians set-ups are available in Crispy:
+4.The **Hamiltonian Setup** is the soul of the simulation. So far, four Halmitonians set-ups are available in Crispy:
    - **Coulomb term: ** described by Slater-Condon Parameters, more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/coulomb_repulsion)*
    - **Spin-Orbit Coupling: ** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/spin_orbit_coupling)*
    - **Crystal Field: ** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/crystal_field)*
    - **3d-Ligands Hybridization** more detailed description → *[Click Here](http://www.quanty.org/documentation/standard_operators/ligand_field)*
 By double click the Parameter Value, one can change the parameters into the values of interest. In our first tutorial, we keep the default values.
+
+
 ![]({{ site.url }}/img/tutorial/crop_6.png)
+
+
 Crystal field default value is 1.0 now.
+
+
 ![]({{ site.url }}/img/tutorial/crop_7.png)
+
 
 #### | 1.2 Running simulations and reading Quanty output files |
 
