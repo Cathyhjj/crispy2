@@ -4,10 +4,12 @@ title: Runnig your first simulation.
 ---
 
 ## 1. generate XANES spectras
-***
+---
 
 An example of Mn(II) metal K pre-edge simulation is shown in the first tutorial.
 In this tutorial, it includes:
+
+
 * **Parameters set-up**
 * **Running simulations and reading Quanty output files**
 * **Save the spectra data and graph**
@@ -112,7 +114,7 @@ in the results panel. If we want to check the detailed values for one specific c
 ![]({{ site.url }}/img/tutorial/crop_17.png)
    
    
-**2.** Quanty is written in LUA language. And Crispy is able to generate Quanty input file. This is useful to modify some scripts for more specific calculations including the terms which aren't included in the interface.
+**2.** Quanty is written in LUA language. And Crispy is able to generate Quanty input file. This is useful to modify some scripts for more specific calculations adding the Halmitonian terms which aren't implemented in the interface.
 
 
 ![]({{ site.url }}/img/tutorial/crop_11.png)
