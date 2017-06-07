@@ -15,7 +15,7 @@ In this tutorial, it includes:
 * **Save the spectra data and graph**
 * **Run multi-calculations and merge data**
 * **Save calculation and Quanty input files**
-
+---
 
 #### 1.1 Parameters set-up
 
