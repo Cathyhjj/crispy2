@@ -9,7 +9,7 @@ title: Running your first simulation.
 An example of Mn metal K pre-edge simulation is shown in the this tutorial and the content includes:
 
 > - **Parameters set-up**
-> - **Running simulations and reading Quanty output files**
+> - **Run simulations and read Quanty output files**
 > - **Save the spectra data and graph**
 > - **Run multi-calculations and merge data**
 > - **Save calculation and Quanty input files**
