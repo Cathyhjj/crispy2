@@ -13,7 +13,7 @@ Installation
 
 Windows
 -------
-The easiest way to install crispy is to use the installer provided on the releases(https://github.com/mretegan/crispy/releases) page. Because the installer is only created when a release is published, it might lack newly implemented features. If you want to use the latest development version, follow the instructions below.
+The easiest way to install crispy is to use the installer provided on the [releases](https://github.com/mretegan/crispy/releases) page. Because the installer is only created when a release is published, it might lack newly implemented features. If you want to use the latest development version, follow the instructions below.
 
 From Source
 -----------
@@ -21,10 +21,10 @@ First you have to make sure you have a working Python distribution. While crispy
 
 Crispy depends on the following Python packages:
 
-* **[PyQt5](https://riverbankcomputing.com/software/pyqt/intro)**
-* **[numpy](http://numpy.org)**
-* **[matplotlib](http://matplotlib.org)**
-* **[silx](http://www.silx.org)**
+- **[PyQt5](https://riverbankcomputing.com/software/pyqt/intro)**
+- **[numpy](http://numpy.org)**
+- **[matplotlib](http://matplotlib.org)**
+- **[silx](http://www.silx.org)**
 
 The dependencies can be installed using `pip` (only for Python 3.5 or greater):: 
 
