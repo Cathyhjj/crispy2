@@ -3,7 +3,7 @@ layout: post
 title: Running your first simulation.
 ---
 
-## 1. generate XANES spectra hahaha
+## 1. generate XANES spectra
 ---
 
 An example of Mn metal K pre-edge simulation is shown in the this tutorial and the content includes:
