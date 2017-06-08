@@ -6,7 +6,7 @@ use-site-title: false
 bigimg: /img/path.jpg
 ---
 
->Crispy is a graphical user interface written in [Python](https://www.python.org/) that facilitates the simulation of core-level >spectra. The interface provides a set of tools to generate input files, submit calculations, and analyze the results obtained with >programs such as [Quanty](http://quanty.org). It has a modular design and can be run on macOS, Linux, and Windows platforms.
+>Crispy is a graphical user interface written in [Python](https://www.python.org/) that facilitates the simulation of core-level spectra. The interface provides a set of tools to generate input files, submit calculations, and analyze the results obtained with programs such as [Quanty](http://quanty.org). It has a modular design and can be run on macOS, Linux, and Windows platforms.
 
 Installation
 ============
@@ -26,7 +26,7 @@ Crispy depends on the following Python packages:
 - **[matplotlib](http://matplotlib.org)**
 - **[silx](http://www.silx.org)**
 
-The dependencies can be installed using `pip` (only for Python 3.5 or greater):: 
+The dependencies can be installed using `pip` (only for Python 3.5 or greater):
 
     pip install -r requirements.txt [--user]
 
@@ -34,11 +34,11 @@ The `--user` options is usually only required for Linux or macOS operating syste
 
 It is possible, although unlikely, that the development version of crispy requires features that are not yet available with the pip installable version of silx. In this case you have to also install silx from source. This is not always a very simple task, especially on Windows, but there is extensive [documentation](http://www.silx.org/doc/silx) on how to do it. 
 
-Once Python and all dependencies are installed, you can proceed to installing crispy. You can download the source code from GitHub either as an [archive](https://github.com/mretegan/crispy/archive/master.zip) or using `git`::
+Once Python and all dependencies are installed, you can proceed to installing crispy. You can download the source code from GitHub either as an [archive](https://github.com/mretegan/crispy/archive/master.zip) or using `git`:
 
     git clone https://github.com/mretegan/crispy.git
 
-To build and install the package, run::
+To build and install the package, run:
 
     cd crispy
     pip install . [--user]
@@ -47,13 +47,13 @@ To build and install the package, run::
 
 Usage
 =====
-If you have used the installers, crispy should be easy to find and launch. For the installation from source you can start crispy from the command line using::
+If you have used the installers, crispy should be easy to find and launch. For the installation from source you can start crispy from the command line using:
 
     crispy
 
 This is a file created during the installation and should be available from the command line if the PATH environment variable was set correctly during the initial Python installation. 
 
-You can also start crispy without installing it by going to the source directory and executing (only for Python 3.5 or greater)::
+You can also start crispy without installing it by going to the source directory and executing (only for Python 3.5 or greater):
 
     python -m crispy
 
